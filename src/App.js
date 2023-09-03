@@ -10,6 +10,7 @@ export default function App() {
       <button onClick={() => setcontent((content)=>[...content,'+'])}>+</button>
       <button>-</button>
       <button onClick={() => setcontent([...content,'4'])}>4</button>
+      <button>5</button>
     </>
   );
 }
